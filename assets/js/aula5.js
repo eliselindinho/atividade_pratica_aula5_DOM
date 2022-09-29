@@ -33,8 +33,6 @@ function salvarCadastro() {
   console.log(arrayCadastro);
 }
 
-function exibirCadastro() {}
-
 elementoBotaoSalvar.addEventListener("click", () => {
   salvarCadastro();
 });
